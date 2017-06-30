@@ -15,6 +15,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
     ```    
 - Open [http://localhost:4200](http://localhost:4200) in browser
 
-- Note: npm module named "spotlight-search" is installed inside node_module.
+- Note: npm module named "spotlight-search" is installed inside node_module which is used in this project.
 
 
