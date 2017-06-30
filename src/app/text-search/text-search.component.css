@@ -1,0 +1,11 @@
+.ng-spotlight{
+    left: 50%;
+    margin-left: -340px;
+    width: 680px;
+    position: absolute;
+    top: 20%;
+    z-index: 2147483647;
+    font-size: 12px;
+    letter-spacing: .3px;
+    overflow: hidden;
+}

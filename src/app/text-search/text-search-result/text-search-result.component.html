@@ -1,0 +1,5 @@
+<ul class="ng-spotlight-results" *ngIf="results.length">
+    <li *ngFor="let result of results" [(class)]="result.class">
+        {{ result.label }}
+    </li>
+</ul>

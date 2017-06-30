@@ -1,0 +1,12 @@
+.ng-spotlight-results-detail{
+    width: 44%;
+    float: left;
+}
+.ng-spotlight-results-detail h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+.ng-spotlight-results-detail p{
+    text-align: left;
+    padding-left: 10px;
+}
