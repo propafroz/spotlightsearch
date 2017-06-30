@@ -3,7 +3,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - Angular 4
 - Typescript
 - Webpack
-- Gulp for publishing npm package locally
+- Gulp for building and publishing our npm package named "spotlight-search" locally.
 
 ### Installation Steps
 
@@ -12,7 +12,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
     ```bash
     $ npm install
     $ npm start
-    ```
+    ```    
 - Open [http://localhost:4200](http://localhost:4200) in browser
+
+- Note: npm module named "spotlight-search" is installed inside node_module.
 
 
