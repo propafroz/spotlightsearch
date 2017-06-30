@@ -11,7 +11,6 @@ export class TextSearchBarComponent implements OnInit {
 
     @Input() searchTerm: string;
     @Output() onSearchTermChanged = new EventEmitter<string>();
-    @Output() onSearchInputInfoChanged = new EventEmitter<string>();
 
     constructor(private textSearchService: TextSearchService) { }
     ngOnInit() { }
