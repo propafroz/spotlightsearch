@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {TextSearchService} from "../services/text-search.service";
+import { TextSearchService } from "../services/text-search.service";
 
 @Component({
   selector: 'app-text-search-result',
@@ -9,15 +9,15 @@ import {TextSearchService} from "../services/text-search.service";
 
 export class TextSearchResultComponent implements OnInit {
   private results: any;
-  constructor(private textSearchService: TextSearchService) { 
-      
+  constructor(private textSearchService: TextSearchService) {
+
   }
 
   ngOnInit() {
-    this.textSearchService.retreiveQueryResults().subscribe(message => { 
-          this.results = message;
-          this.textSearchService.resetSelectedItemIndex();
-      });
+    this.textSearchService.retreiveQueryResults().subscribe(results => {
+      this.results = results;
+      this.textSearchService.resetSelectedItemIndex();
+    });
   }
 
 

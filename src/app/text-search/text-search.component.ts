@@ -10,7 +10,6 @@ const KEY = {
     ENTER: 13
 };
 
-
 @Component({
     providers: [TextSearchService],
     host: {
@@ -38,8 +37,6 @@ const KEY = {
 
 
 export class TextSearchComponent implements OnInit {
-
-
     private searchTerm;
     private selectedItem;
     private KEY_MAP = { 17: false, 65: false, 32: false };

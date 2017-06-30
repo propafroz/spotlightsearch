@@ -10,9 +10,7 @@ import {TextSearchService} from "../services/text-search.service";
 export class TextSearchResultDetailComponent implements OnInit {
 
   @Input() selectedItem: any;
-  constructor(private textSearchService: TextSearchService) { 
-      
-  }
+  constructor(private textSearchService: TextSearchService) { }
 
   ngOnInit() {
       this.textSearchService.retreiveQueryResults().subscribe(message => { 
